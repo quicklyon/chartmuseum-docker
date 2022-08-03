@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  chartmuseum:
+    image: hub.qucheng.com/app/chartmuseum:${TAG:-latest}
+    container_name: chartmuseum
+    ports:
+      - '8080:8080'
+    volumes:
+      - 'data:/data'
+    environment:
+      - PORT=8080
+      - STORAGE=local
+      - STORAGE_LOCAL_ROOTDIR=/data
+      - AUTH_ANONYMOUS_GET=true
+      - BASIC_AUTH_PASS=admin
+      - BASIC_AUTH_USER=quickon-admin
+    networks:
+      - net
+
+networks:
+  net:
+    driver: bridge
+
+# persistence
+volumes:
+  data:
+    driver: local

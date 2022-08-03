@@ -1,0 +1,1 @@
+- [latest](https://github.com/helm/chartmuseum/releases/tag/v0.15.0)

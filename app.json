@@ -1,0 +1,16 @@
+{
+    "Name": "chartmuseum",
+    "Version": "0.15.0",
+    "Home": "https://chartmuseum.com",
+    "Maintainer": "ysicing i@ysicing.me",
+    "GitUrl": "https://github.com/helm/chartmuseum",
+    "DockerfileUrl": "https://github.com/quicklyon/chartmuseum-docker",
+    "InstallDocUrl": "https://www.qucheng.com/app-install/install-chartmuseum-138.html",
+    "Docker": {
+        "Name": "chartmuseum",
+        "OS": "debian-11",
+        "ImageOS": "easysoft/debian:11",
+        "Repo": "https://hub.docker.com/r/easysoft/chartmuseum",
+        "TagUrl": "https://hub.docker.com/r/easysoft/chartmuseum/tags/"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "render-template": {
+    "arch": "amd64",
+    "digest": "97c2ae4b001c5937e888b920bee7b1a40a076680caac53ded6d10f6207d54565",
+    "distro": "debian-10",
+    "type": "QUCHENG",
+    "version": "1.0.1-10"
+  }
+}
