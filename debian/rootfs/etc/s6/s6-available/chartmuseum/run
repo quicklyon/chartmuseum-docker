@@ -4,4 +4,15 @@
 
 [ -n "${DEBUG:+1}" ] && set -x
 
+#===============#
+#  CHARTMUSEUM  #
+#===============#
+export PORT=${PORT:-8080}
+export STORAGE=${STORAGE:-local}
+export STORAGE_LOCAL_ROOTDIR=${STORAGE_LOCAL_ROOTDIR:-/data}
+export AUTH_ANONYMOUS_GET=${AUTH_ANONYMOUS_GET:-true}
+export BASIC_AUTH_USER=${BASIC_AUTH_USER:-admin}
+export BASIC_AUTH_PASS=${BASIC_AUTH_PASS:-quickon-admin}
+export DEPTH_DYNAMIC=${DEPTH_DYNAMIC:-true}
+
 exec /usr/local/bin/chartmuseum
