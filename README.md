@@ -46,7 +46,7 @@ chartmuseum官网：[https://chartmuseum.com](https://chartmuseum.com)
 
 ## 三、获取镜像
 
-* [`latest`, `0.15.0`](https://github.com/quicklyon/chartmuseum-docker/blob/0.15.0/Dockerfile)
+* [`latest`, `0.15.0-20220803`](https://github.com/quicklyon/chartmuseum-docker/blob/0.15.0-20220803/Dockerfile)
 
 推荐从 [Docker Hub Registry](https://hub.docker.com/r/easysoft/chartmuseum) 拉取我们构建好的官方Docker镜像。
 
